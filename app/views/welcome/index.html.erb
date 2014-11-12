@@ -1,0 +1,16 @@
+<h1>Welcome to the Travel Emporium</h1>
+<h4>Where imagination can take flight!</h4>
+
+<ul>
+	<% @destinations.each do |destination| %>
+	<li><%= destination.city %>, <%=destination.country%></li>
+<% end %>
+</ul>	 
+
+<%= image_tag "germany.jpeg" %>
+<%= image_tag "peru.jpeg" %>
+<%= image_tag "sweden-flag.jpg" %>
+
+
+
+	
